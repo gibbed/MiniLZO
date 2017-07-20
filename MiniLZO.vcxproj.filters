@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="project">
+      <UniqueIdentifier>{ad31d463-6a4c-4ce2-b2a7-9e611e6cb35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project\native">
+      <UniqueIdentifier>{2c5b93b7-5430-4bb1-ac02-33bda4eecff4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\AssemblyInfo.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="source\native\minilzo.c">
+      <Filter>project\native</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LZO.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CompressWorkBuffer.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\native\lzoconf.h">
+      <Filter>project\native</Filter>
+    </ClInclude>
+    <ClInclude Include="source\native\lzodefs.h">
+      <Filter>project\native</Filter>
+    </ClInclude>
+    <ClInclude Include="source\native\minilzo.h">
+      <Filter>project\native</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ErrorCode.hpp">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LZO.hpp">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CompressWorkBuffer.hpp">
+      <Filter>project</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
