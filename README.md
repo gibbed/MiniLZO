@@ -1,0 +1,1 @@
+This is a managed pure CLR build of [LZO](http://www.oberhumer.com/opensource/lzo/).
